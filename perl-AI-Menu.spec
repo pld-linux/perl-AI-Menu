@@ -2,10 +2,10 @@
 %define	pdir	AI
 %define	pnam	Menu
 Summary:	AI::Menu -- Generate "Tree::Nary" objects from directed graphs
-#Summary(pl):	AI::Menu -- Wygeneruj obiekty "Tree::Nary" z bezpo¶rednich grafów (?)
+Summary(pl):	Modu³ AI::Menu - generuj±cy obiekty "Tree::Nary" ze skierowanych grafów
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.01
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -19,8 +19,10 @@ An "AI::Menu::Factory" object generates "Tree::Nary" objects from
 directed graphs (Graph::Directed or an object with the same methods)
 or a description of the function set.
 
-# %description -l pl
-# TODO
+%description -l pl
+Obiekt AI::Menu::Factory generuje obiekty Tree::Nary ze skierowanych
+grafów (Graph::Directed lub obiektu z tymi samymi metodami) lub opisu
+zbioru funkcji.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
