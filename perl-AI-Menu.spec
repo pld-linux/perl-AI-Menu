@@ -5,7 +5,7 @@ Summary:	AI::Menu - generate "Tree::Nary" objects from directed graphs
 Summary(pl):	AI::Menu - generowanie obiektów "Tree::Nary" ze skierowanych grafów
 Name:		perl-AI-Menu
 Version:	0.01
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
