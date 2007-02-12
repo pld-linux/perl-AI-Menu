@@ -2,7 +2,7 @@
 %define		pdir	AI
 %define		pnam	Menu
 Summary:	AI::Menu - generate "Tree::Nary" objects from directed graphs
-Summary(pl):	AI::Menu - generowanie obiektów "Tree::Nary" ze skierowanych grafów
+Summary(pl.UTF-8):   AI::Menu - generowanie obiektÃ³w "Tree::Nary" ze skierowanych grafÃ³w
 Name:		perl-AI-Menu
 Version:	0.01
 Release:	5
@@ -21,9 +21,9 @@ An "AI::Menu::Factory" object generates "Tree::Nary" objects from
 directed graphs (Graph::Directed or an object with the same methods)
 or a description of the function set.
 
-%description -l pl
+%description -l pl.UTF-8
 Obiekt AI::Menu::Factory generuje obiekty Tree::Nary ze skierowanych
-grafów (Graph::Directed lub obiektu z tymi samymi metodami) lub opisu
+grafÃ³w (Graph::Directed lub obiektu z tymi samymi metodami) lub opisu
 zbioru funkcji.
 
 %prep
