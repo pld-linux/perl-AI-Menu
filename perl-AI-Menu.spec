@@ -1,6 +1,5 @@
 %define		pdir	AI
 %define		pnam	Menu
-%include	/usr/lib/rpm/macros.perl
 Summary:	AI::Menu - generate "Tree::Nary" objects from directed graphs
 Summary(pl.UTF-8):	AI::Menu - generowanie obiektów "Tree::Nary" ze skierowanych grafów
 Name:		perl-AI-Menu
